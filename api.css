@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header {
+    background-color: rgb(35, 92, 92);
+    width: 100%;
+    height: 20vh;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .goku {
+    
+    width: 5rem;
+  }
+  .animacion{
+    animation: animar 1s infinite alternate
+    
+  }
+  @keyframes animar{
+    to{
+        transform: translatey(20px)
+    }
+  }
+  .animax{
+    color:white;
+    text-decoration: none;
+    position: relative;
+    top: 8vh;
+    
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    border: 2px solid black;
+    
+}
+
+
+  
+  
+  .footer{
+    background-color: rgb(35, 92, 92);
+    color:#ffffff;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .listaNav{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        
+        .listaItem{
+          /*margin-left:20px;*/
+          margin-right: 20px;
+            .linkNav{
+                text-decoration: none;
+                color:#ffffff;
+                font-weight: 700;
+                font-size: 1.2rem;
+            }
+            .administradorPeliculas{
+                /*background-color: #982fb3;*/
+                color: white;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+            }
+        }
+    }
+  }
+  
